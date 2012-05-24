@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>metadash (metaist)</title>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="dash.css" />
+</head><body>
+<div id="masthead">
+	<h1>metadash</h1>
+	<p class="tagline">&mdash; a lightweight cookie-based dashboard</p>
+</div>
+
+<ul id="urls"></ul>
+<p id="no-results"><em>No URLs saved.</em></p>
+
+<label for="txt-url">URL:</label>
+<input id="txt-url" name="txt-url" type="text" />
+<button id="btn-add">Add</button>
+
+<div id="footer">
+	<ul id="technologies">
+		<lh>Built with</lh>
+		<li><a href="http://jquery.com">jQuery</a>,</li>
+		<li><a href="http://jqueryui.com">jQuery UI</a>,</li>
+		<li><a href="https://github.com/carhartl/jquery-cookie">jQuery Cookie</a>,</li>
+		<li><a href="https://github.com/medialize/URI.js">URI.js</a></li>		
+	</ul>
+	as part of a <a href="http://metaist.com">metaist</a> weekend coding project.
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+<script src="external/jquery-cookie/jquery.cookie.js"></script>
+<script src="external/URI.js/src/URI.js"></script>
+<script src="dash.js"></script>
+</body></html>

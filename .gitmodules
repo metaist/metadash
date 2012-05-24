@@ -1,0 +1,6 @@
+[submodule "external/jquery-cookie"]
+	path = external/jquery-cookie
+	url = git://github.com/carhartl/jquery-cookie.git
+[submodule "external/URI.js"]
+	path = external/URI.js
+	url = git://github.com/medialize/URI.js.git

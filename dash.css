@@ -1,0 +1,51 @@
+body {
+	font-family: Georgia, serif;
+	line-height: 1.429;
+}
+
+label { font-weight: bold; }
+
+.btn-clear {
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.url { vertical-align: middle; }
+
+#masthead {
+	border-bottom: 0.2em solid #CCC;
+	margin-bottom: 1em;
+}
+
+#masthead h1 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	display: inline;
+	vertical-align: middle;
+}
+
+#masthead .tagline {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	vertical-align: middle;
+	font-style: italic;
+}
+
+#footer {
+	margin-top: 1em;
+	font-size: 80%;	
+}
+
+#urls, #technologies {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#urls { margin-bottom: 1em; }
+
+#technologies lh,
+#technologies li { display: inline; }
