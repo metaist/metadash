@@ -1,0 +1,91 @@
+.weather {
+  padding-bottom: 5px;
+  background-color: #222;
+  color: #fff !important;
+}
+
+.weather .city {
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.weather  a { color: #fff; }
+
+.weather .icon {
+  vertical-align: text-bottom;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 30px;
+  height: 30px;
+}
+
+
+.weather .current .conditions { margin-top: 1em; }
+
+.weather .forecast {
+  color: #aaa;
+  text-align: center;
+}
+
+.weather .forecast .day,
+.weather .forecast .temp { display: block; }
+.weather .forecast .icon { vertical-align: middle; }
+
+.weather .current .units {
+  position: relative;
+  top: -0.5em;
+  border: 0;
+  color: #fff;
+  background-color: #333;
+}
+
+/** Yahoo Theme */
+.wc-code-0, .wc-tornado{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/tornado_day_night-1311603.png"); }
+.wc-code-1, .wc-tropical-storm{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/hurricane_day_night-1311603.png"); }
+.wc-code-2, .wc-hurricane{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/hurricane_day_night-1311603.png"); }
+.wc-code-3, .wc-severe-thunderstorms{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/thundershowers_day_night-1311603.png"); }
+.wc-code-4, .wc-thunderstorms{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/thunderstorm_day_night-1311603.png"); }
+.wc-code-5, .wc-rain-and-snow{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/snow_rain_mix_day_night-1311603.png"); }
+.wc-code-6, .wc-rain-and-sleet{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/freezing_rain_day_night-1311603.png"); }
+.wc-code-7, .wc-snow-and-sleet{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/sleet_mix_day_night-1311603.png"); }
+.wc-code-8, .wc-freezing-drizzle{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/sleet_day_night-1311603.png"); }
+.wc-code-9, .wc-drizzle{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/light_rain_day_night-1311603.png"); }
+.wc-code-10, .wc-freezing-rain{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/freezing_rain_day_night-1311603.png"); }
+.wc-code-11, .wc-code-12, .wc-showers{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/rain_day_night-1311603.png"); }
+.wc-code-13, .wc-snow-flurries{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/flurries_day_night-1311603.png"); }
+.wc-code-14, .wc-light-snow-showers{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/flurries_day_night-1311603.png"); }
+.wc-code-15, .wc-blowing-snow{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/snow_day_night-1311603.png"); }
+.wc-code-16, .wc-snow{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/snow_day_night-1311603.png"); }
+.wc-code-17, .wc-hail{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/hail_day_night-1311603.png"); }
+.wc-code-18, .wc-sleet{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/sleet_day_night-1311603.png"); }
+.wc-code-19, .wc-dust{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/dust_day_night-1311603.png"); }
+.wc-code-20, .wc-foggy{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/fog_day_night-1311603.png"); }
+.wc-code-21, .wc-haze{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/fog_day_night-1311603.png"); }
+.wc-code-22, .wc-smoky{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/smoky_day_night-1311603.png"); }
+.wc-code-23, .wc-blustery{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/windy_day_night-1311603.png"); }
+.wc-code-24, .wc-windy{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/windy_day_night-1311603.png"); }
+.wc-code-25, .wc-cold{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/clear_day-1311603.png"); }
+.wc-code-26, .wc-cloudy{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/cloudy_day_night-1311603.png"); }
+.wc-code-27, .wc-mostly-cloudy-n{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/mostly_cloudy_day_night-1311603.png"); }
+.wc-code-28, .wc-mostly-cloudy-d{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/mostly_cloudy_day_night-1311603.png"); }
+.wc-code-29, .wc-partly-cloudy-n{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/partly_cloudy_night-1311603.png"); }
+.wc-code-30, .wc-partly-cloudy-d{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/partly_cloudy_day-1311603.png"); }
+.wc-code-31, .wc-clear-n{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/clear_night-1311603.png"); }
+.wc-clear-d{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/clear_day-1311603.png"); }
+.wc-code-32, .wc-sunny{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/clear_day-1311603.png"); }
+.wc-code-33, .wc-fair-n{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/fair_night-1311603.png"); }
+.wc-code-34, .wc-fair-d{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/fair_day-1311603.png"); }
+.wc-code-35, .wc-rain-and-hail{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/hail_day_night-1311603.png"); }
+.wc-code-36, .wc-hot{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/clear_day-1311603.png"); }
+.wc-code-37, .wc-isolated-thunderstorms{background-image:url("/media/modules/weather/assets/images/icons/conditions/png/scattered_thundershowers_day_night.png"); }
+.wc-code-38, .wc-scattered-thunderstorms-d{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/scatttered_thundershowers_day-1311603.png"); }
+.wc-code-39, .wc-scattered-thunderstorms-n{background-image:url("/media/modules/weather/assets/images/icons/conditions/png/scatttered_thundershowers_night.png"); }
+.wc-code-40, .wc-scattered-showers{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/scattered_showers_day_night-1311603.png"); }
+.wc-code-41, .wc-code-43, .wc-heavy-snow{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/heavy_snow_day_night-1311603.png"); }
+.wc-code-42, .wc-scattered-snow-showers{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/snow_day_night-1311603.png"); }
+.wc-code-44, .wc-partly-cloudy{background-image:url("/media/modules/weather/assets/images/icons/conditions/png/partly_cloudy_day_night.png"); }
+.wc-code-45, .wc-thundershowers{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/thundershowers_day_night-1311603.png"); }
+.wc-code-46, .wc-snow-showers{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/png/snow_day_night-1311603.png"); }
+.wc-code-47, .wc-isolated-thundershowers{background-image:url("/media/modules/weather/assets/images/icons/conditions/png/scattered_thundershowers_day_night.png"); }
+.wc-code-3200, .wc-default{background-image:url("http://l.yimg.com/os/mit/media/m/weather/images/icons/conditions/common/png/notAvailable-1395938.png"); }

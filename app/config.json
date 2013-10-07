@@ -1,0 +1,15 @@
+[
+  [{
+    "gadget": "metadash/weather",
+    "city": "Cambridge,MA",
+    "units": "metric",
+    "theme": "yahoo"
+  }],
+  [{
+    "gadget": "metadash/rss",
+    "count": 10,
+    "feeds": [
+      "http://news.yahoo.com/rss/"
+    ]
+  }], []
+]

@@ -1,0 +1,25 @@
+.gadget {
+  border: 1px solid #dcdcdc;
+  font-size: 13px;
+  margin: 0;
+  margin-bottom: 1.5em;
+  display: none;
+}
+
+.gadget-title {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dcdcdc;
+  color: #222;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.gadget-title,
+.gadget-body {
+  padding-left: 5px;
+  padding-right: 5px;
+}
