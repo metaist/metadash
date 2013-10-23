@@ -3,11 +3,6 @@
   overflow: auto;
 }
 
-.rss .content { display: none; }
-.rss .entry:hover .content {
-  display: block; 
-  border-bottom: 1px solid #CCC;
-  padding-bottom: 0.5em;
-}
+.rss .content { margin: 0.3em 0 0 1.5em; }
+.rss .content img { padding-right: 0.5em; }
 
-.rss .entry img { padding-right: 0.5em; }

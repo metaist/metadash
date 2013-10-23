@@ -3,7 +3,6 @@
 /*global requirejs, require, define, console*/
 requirejs.config({
   baseUrl: 'lib',
-  enforceDefine: true,
   paths: {
     app: '../app',
     bootstrap: '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min',
