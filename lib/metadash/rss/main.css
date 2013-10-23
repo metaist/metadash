@@ -3,6 +3,27 @@
   overflow: auto;
 }
 
-.rss .content { margin: 0.3em 0 0 1.5em; }
-.rss .content img { padding-right: 0.5em; }
+.rss .feed { overflow-x: hidden; }
 
+.rss .entry { clear: both; }
+.rss .entry .toggle { outline: none; }
+.rss .entry .col-xs-11 {
+  padding-top: 2px;
+  padding-left: 4px;
+}
+
+.rss .content { margin: 0.3em 0 0.3em 1.5em; }
+.rss .content img { padding-right: 0.5em; }
+.rss .content p { margin-bottom: 0; }
+.rss .content br { display: none; }
+
+/* From: http://stackoverflow.com/a/10747381 */.right-caret {
+  border-top: 4px solid transparent;
+  border-right: 0 dotted;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #000;
+  margin-left: 4px;
+  margin-right: 2px;
+}
+
+.btn .right-caret { margin-left: 2px; }
